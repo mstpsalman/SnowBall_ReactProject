@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#navbar {
+    display: inline-block;
+    float: right;
+    margin-top: 20px
+  }
+
+@media (max-width: 700px){
+	#navbar{
+    float: centre;
+    }
+}
+
+#title{
+
+
+  color: rgba(255, 217, 0, 0.67);
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  margin: -5px;
+  display: inline;
+
+}
+
+@media (min-width: 700px) {
+  #title {
+    text-align: left;
+    font-size:4em;
+  }
+}
+
+@media (max-width: 700px) {
+  #title {
+    text-align: center;
+    font-size:10vw;
+  }
+}
+
+
+#ban{
+	  text-align: center;
+  font-size: 1em;
+  color: rgba(220, 187, 0, 0.67);
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px;
+  background-color: black;
+  font-weight: bold;
+  margin-top: 3px
+}
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  
+
+}
+
+.flex-container > div {
+
+
+  margin: 1px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+
+  font-size: 14px;
+
+  padding:5px;
+    line-height: 40px;
+  
+  
+    
+    height: 40px;
+
+
+
+  border-radius: 5px;
+
+  text-align: center;
+  
+}
+</style>
+</head>
+<body>
+<h1 id = 'title'>Snowball I</h1>
+<div id= 'navbar'>
+<div class="flex-container">
+  <div>Home</div>
+  <div>Biography</div>
+  <div>Life</div>  
+  <div>Memorial</div>
+  <div>Poem</div>
+</div>
+</div>
+<h2 id='ban'>In loving memory of our beloved cat</h2>
+
+
+
+
+
+
+
+
+
+
+<p>Try to resize the browser window.</p>
+<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 or earlier versions.</p>
+
+</body>
+</html>

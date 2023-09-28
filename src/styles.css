@@ -1,0 +1,153 @@
+body {
+  background-color: rgba(58, 89, 73, 0.67);
+}
+
+.navbar-top {
+  display: inline-block;
+
+  margin-top: 20px
+}
+
+
+
+
+.title {
+  color: rgba(255, 217, 0, 0.67);
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: -5px;
+  display: inline;
+  margin-left: 10px;
+}
+
+@media (min-width: 700px) {
+  .title {
+    text-align: left;
+    font-size: 4em;
+  }
+  .navbar-top{
+    float: right;
+    }
+    .navbar-bottom{
+      display: none;
+    }  
+}
+
+@media (max-width: 699px) {
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-left: -10px;
+  }
+  .navbar-top{
+    display: none;
+  }
+
+  .navbar-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }
+}
+
+.main {
+  border: 05px solid;
+  border-color: rgb(227, 164, 16);
+  border-radius: 30px;
+  padding: 25px;
+}
+
+p {
+  padding: 0 2em;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0 2em;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.borderText {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(220, 187, 0, 0.67);
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px;
+  background-color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: #fcdf05;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: #fcdf05;
+  text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+  color: #fda01e;
+  text-decoration: none;
+}
+/* selected link */
+a:active {
+  color: #fcdf05;
+  text-decoration: none;
+}
+
+.images {
+  display: block;
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.mainPhoto {
+  width: 35vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.activeLink {
+  border-top: solid 2px yellow;
+  border-bottom: solid 2px black;
+}
+
+
+
+.nav-bar-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.nav-bar-container > div {
+  margin: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  line-height: 25px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
